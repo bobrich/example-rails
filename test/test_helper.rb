@@ -11,7 +11,7 @@ class ActiveSupport::TestCase
   # Add more helper methods to be used by all tests here...
 end
 
-Capybara.default_driver = :selenium_chrome_headless
+Capybara.default_driver = :selenium
 
 class ActionDispatch::IntegrationTest
   # Make the Capybara DSL available in all integration tests
