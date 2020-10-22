@@ -29,7 +29,7 @@ class TodoMvcTest < ActionDispatch::IntegrationTest
     assert_equal ary, todo_items.map { |el| el.find(".view label").text }
   end
 
-  TODO_ITEM_ONE = 'buy some cheese'
+  TODO_ITEM_ONE = 'buy some cheese pretty please'
   TODO_ITEM_TWO = 'feed the cat'
   TODO_ITEM_THREE = 'book a doctors appointment'
 
